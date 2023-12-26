@@ -16,7 +16,7 @@ export default class extends Document {
       <Html lang={lang ? lang : 'en-US'}>
         <Head>
           <meta charSet="utf-8" />
-          <meta content="Zeno Rocha" name="author" />
+          <meta content="Samuel Ironkwe" name="author" />
           <meta property="og:type" content="website" />
           <meta content="summary_large_image" name="twitter:card" />
           <meta name="theme-color" content="#08070b" />
@@ -32,20 +32,7 @@ export default class extends Document {
             type="image/svg+xml"
           />
 
-          <script
-            async
-            src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-          />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}');
-          `,
-            }}
-          />
+        
         </Head>
         <Main />
         <NextScript />

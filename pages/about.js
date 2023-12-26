@@ -15,11 +15,11 @@ import downloadIcon from '../public/static/icons/download.json'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'About // Zeno Rocha',
+    title: 'About // Samuel Ironkwe',
     description:
-      "Zeno Rocha is a Brazilian creator and programmer. He currently lives in San Francisco, California, where he's the Founder & CEO at Resend. His lifelong appreciation for building software and sharing knowledge led him to speak in over 110 conferences worldwide. His passion for open source put him on the top 20 most active users on GitHub at age 22. Before moving to the US, Zeno developed multiple applications, mentored startups, and worked at major companies in Latin America, such as Globo and Petrobras.",
+      "",
     tagline: 'Create. Share. Repeat.',
-    image: '/static/images/about-bw.jpg',
+    image: '/static/images/samuel.jpg',
     primaryColor: 'pink',
     secondaryColor: 'purple',
   }
@@ -40,8 +40,8 @@ function About(props) {
       <Container>
         <Section>
           <Image
-            alt="Zeno"
-            src="/static/images/zeno-bw.jpg"
+            alt="Samuel"
+            src="/static/images/samuel.jpg"
             width="336"
             height="336"
             placeholder="blur"
@@ -56,7 +56,7 @@ function About(props) {
               '@bp2': { marginTop: '-6px' },
             }}
           >
-            <strong>Hey, I'm Zeno Rocha</strong>
+            <strong>Hey, I'm Samuel Ironkwe</strong>
             <Pronunciation />
             I started as a software engineer back in 2009, working with Flash.
           </Paragraph>
@@ -77,48 +77,6 @@ function About(props) {
     )
   }
 
-  const renderBio = () => {
-    const btnStyle = { display: 'inline-flex', justifyContent: 'center', alignItems: 'center' }
-    const iconStyle = { width: 24, height: 24, marginRight: 8 }
-
-    return (
-      <div>
-        <p>
-          This is made for journalists, podcast hosts, and event organizers to
-          copy-and-paste.
-        </p>
-        <blockquote>
-          <p>{description}</p>
-        </blockquote>
-        <ButtonsContainer>
-          <ButtonPrimary
-            as="button"
-            style={btnStyle}
-            onClick={copyBio}
-            onMouseEnter={() => copyBioRef.current?.play()}
-            onMouseLeave={() => copyBioRef.current?.stop()}
-          >
-            <Lottie lottieRef={copyBioRef} style={iconStyle} animationData={copyBioIcon} loop={false} autoplay={false} />
-            Copy Bio
-          </ButtonPrimary>
-          <span style={{ margin: '0 20px 0 10px' }}>•</span>
-          <ButtonPrimary
-            as="a"
-            download
-            role="button"
-            href="/static/images/zeno.png"
-            style={btnStyle}
-            onClick={downloadHeadshot}
-            onMouseEnter={() => downloadRef.current?.play()}
-            onMouseLeave={() => downloadRef.current?.stop()}
-          >
-            <Lottie lottieRef={downloadRef} style={iconStyle} animationData={downloadIcon} loop={false} autoplay={false} />
-            Download Headshot
-          </ButtonPrimary>
-        </ButtonsContainer>
-      </div>
-    )
-  }
 
   const renderAll = () => {
     return items.map((item, index) => {
@@ -166,20 +124,6 @@ function About(props) {
     return durationStr
   }
 
-  const downloadHeadshot = () => {
-    setToastTitle('Downloading...')
-    setToastDescription('You can now add this photo to your fancy site.')
-    setShowToast(true)
-  }
-
-  const copyBio = e => {
-    e.preventDefault()
-    navigator.clipboard.writeText(description)
-
-    setToastTitle('Copied :D')
-    setToastDescription('You can now paste it anywhere.')
-    setShowToast(true)
-  }
 
   return (
     <>
@@ -188,14 +132,12 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://zenorocha.com/about" property="og:url" />
-        <meta content={`https://zenorocha.com${image}`} property="og:image" />
+        <meta content="https://samuel.pro/about" property="og:url" />
+        <meta content={`https://samuel.pro${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}
 
-      <h2>Bio</h2>
-      {renderBio()}
 
       <h2>Career</h2>
       {renderAll()}
