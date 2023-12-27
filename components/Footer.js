@@ -19,7 +19,7 @@ export default function Footer() {
       icon: 'ri-github-line',
     },
     {
-      title: 'linkedin',
+      title: 'Linkedin',
       url: 'https://www.linkedin.com/in/samuel-ironkwe-79607a174/',
       icon: 'ri-linkedin-line',
     },

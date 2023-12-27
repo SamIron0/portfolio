@@ -1,7 +1,6 @@
 import React from 'react'
 import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { getCssText } from '../stitches.config'
-import { GA_TRACKING_ID } from '../lib/gtag'
 
 export default class extends Document {
   static async getInitialProps(ctx) {
