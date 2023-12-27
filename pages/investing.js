@@ -12,7 +12,7 @@ export async function getStaticProps() {
     description:
       "<strong>Angel investing</strong> is how I help other startups to create amazing developer experiences. I'm excited to enable teams to grow and <strong>build world-class products</strong>.",
     tagline: 'DevTools. B2B. SaaS.',
-    image: '/static/images/projects-bw.jpg',
+    image: '/static/images/samuel.jpg',
     primaryColor: 'purple',
     secondaryColor: 'cyan',
   }

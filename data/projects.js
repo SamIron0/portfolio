@@ -26,12 +26,12 @@ const items = [
         stats: 'Next.js, Python, Typescript, React',
       },
       {
-        title: 'Cruiseo',
-        description: 'Ride sharing platform',
-        url: 'https://cruiseo.xyz',
+        title: 'Portfolio',
+        description: 'My personal website',
+        url: 'https://samuel.pro',
         active: true,
         icon: 'resend',
-        stats: 'Next.js, Typescript, React',
+        stats: 'Next.js, Javascript, React',
       }
     ],
   },
@@ -55,13 +55,16 @@ const items = [
         url: 'https://vestaatelierstudio.wixstudio.io/plumbing',
         active: true,
       },
-
     ],
   },
   {
     year: '2021',
     projects: [
-
+      {
+        title: 'Punjab Food Corner',
+        url: 'https://vestaatelierstudio.wixstudio.io/website',
+        active: true,
+      },
     ],
   },
   {

@@ -11,7 +11,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Projects // Zeno Rocha',
     tagline: 'Work. Hobby. Open Source.',
-    image: '/static/images/projects-bw.jpg',
+    image: '/static/images/samuel.jpg',
     primaryColor: 'cyan',
     secondaryColor: 'green',
   }
@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ['Fitpal AI', 'Cruiseo', 'Trading Bot']
+    const featured = ['Cruiseo', 'Portfolio', 'Fitpal AI', , 'Trading Bot']
 
     return items
       .map(item => {
