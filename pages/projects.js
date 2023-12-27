@@ -9,7 +9,7 @@ import items from '../data/projects'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Projects // Zeno Rocha',
+    title: 'Projects // Samuel Ironkwe',
     tagline: 'Work. Hobby. Open Source.',
     image: '/static/images/samuel.jpg',
     primaryColor: 'cyan',

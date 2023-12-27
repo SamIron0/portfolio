@@ -17,7 +17,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'About // Samuel Ironkwe',
     description:
-      "",
+      "All about me",
     tagline: 'Create. Share. Repeat.',
     image: '/static/images/samuel.jpg',
     primaryColor: 'pink',
