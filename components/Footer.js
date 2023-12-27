@@ -10,22 +10,22 @@ export default function Footer() {
     },
     {
       title: 'Twitter',
-      url: 'https://twitter.com/zenorocha',
+      url: 'https://twitter.com/csi0x',
       icon: 'ri-twitter-line',
     },
     {
       title: 'GitHub',
-      url: 'https://github.com/zenorocha',
+      url: 'https://github.com/SamIron0',
       icon: 'ri-github-line',
     },
     {
       title: 'linkedin',
-      url: 'https://linkedin.com/in/zenorocha',
+      url: 'https://www.linkedin.com/in/samuel-ironkwe-79607a174/',
       icon: 'ri-linkedin-line',
     },
     {
       title: 'Instagram',
-      url: 'https://instagram.com/zenorocha',
+      url: 'https://www.instagram.com/lozi_kun/',
       icon: 'ri-instagram-line',
     },
   ]
