@@ -46,7 +46,7 @@ export default function Index(props) {
               <h1>{title}</h1>
               <p>
                 <strong>Full Stack Developer and Entrepreneur
-                </strong><br />Currently building <a href="https://resend.com" target="blank">Cruiseo</a>
+                </strong><br />Currently building <a href="https://cruiseo.xyz" target="blank">Cruiseo</a>
               </p>
               <ShortcutHome />
             </div>
