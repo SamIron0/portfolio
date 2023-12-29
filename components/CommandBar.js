@@ -124,13 +124,7 @@ export default function CommandBar(props) {
         {props.children}
       </KBarProvider>
 
-      <Toast
-        title="Copied :D"
-        description="You can now share it with anyone."
-        isSuccess={true}
-        showToast={showToast}
-        setShowToast={setShowToast}
-      />
+     
     </>
   )
 }
