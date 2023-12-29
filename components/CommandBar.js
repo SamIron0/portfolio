@@ -13,17 +13,14 @@ import {
   KBarResults,
 } from 'kbar'
 import Lottie from 'lottie-react'
-import copyLinkIcon from '../public/static/icons/copy-link.json'
 import emailIcon from '../public/static/icons/email.json'
 import sourceIcon from '../public/static/icons/source.json'
 import aboutIcon from '../public/static/icons/about.json'
 import homeIcon from '../public/static/icons/home.json'
-import articlesIcon from '../public/static/icons/articles.json'
 import projectsIcon from '../public/static/icons/projects.json'
 import reminderIcon from '../public/static/icons/reminder.json'
 
 export default function CommandBar(props) {
-  const copyLinkRef = useRef()
   const emailRef = useRef()
   const sourceRef = useRef()
   const homeRef = useRef()
@@ -31,11 +28,6 @@ export default function CommandBar(props) {
   const projectsRef = useRef()
   const reminderRef = useRef()
   const router = useRouter()
-
-  const copyLink = () => {
-    navigator.clipboard.writeText(window.location.href)
-    setShowToast(true)
-  }
 
   const iconSize = { width: 24, height: 24 }
 

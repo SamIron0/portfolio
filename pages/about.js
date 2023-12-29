@@ -17,7 +17,7 @@ export async function getStaticProps() {
    tagline: 'Create. Share. Repeat.',
    image: '/static/images/samuel.jpg',
    primaryColor: 'pink',
-   secondaryColor: 'blue',
+   secondaryColor: 'purple',
  }
 
 
