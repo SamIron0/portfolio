@@ -50,15 +50,7 @@ export default function CommandBar(props) {
   const iconSize = { width: 24, height: 24 }
 
   const actions = [
-    {
-      id: 'copy',
-      name: 'Copy Link',
-      shortcut: ['l'],
-      keywords: 'copy-link',
-      section: 'General',
-      perform: copyLink,
-      icon: <Lottie lottieRef={copyLinkRef} style={iconSize} animationData={copyLinkIcon} loop={false} autoplay={false} />,
-    },
+
     {
       id: 'email',
       name: 'Send Email',
@@ -96,15 +88,7 @@ export default function CommandBar(props) {
       perform: () => router.push('/about'),
       icon: <Lottie lottieRef={aboutRef} style={iconSize} animationData={aboutIcon} loop={false} autoplay={false} />,
     },
-    {
-      id: 'articles',
-      name: 'Articles',
-      shortcut: ['g', 'b'],
-      keywords: 'go-articles',
-      section: 'Go To',
-      perform: () => router.push('/articles'),
-      icon: <Lottie lottieRef={articlesRef} style={iconSize} animationData={articlesIcon} loop={false} autoplay={false} />,
-    },
+
     {
       id: 'projects',
       name: 'Projects',
@@ -115,48 +99,12 @@ export default function CommandBar(props) {
       icon: <Lottie lottieRef={projectsRef} style={iconSize} animationData={projectsIcon} loop={false} autoplay={false} />,
     },
     {
-      id: 'talks',
-      name: 'Talks',
-      shortcut: ['g', 't'],
-      keywords: 'go-talks',
-      section: 'Go To',
-      perform: () => router.push('/talks'),
-      icon: <Lottie lottieRef={talksRef} style={iconSize} animationData={talksIcon} loop={false} autoplay={false} />,
-    },
-    {
-      id: 'podcasts',
-      name: 'Podcasts',
-      shortcut: ['g', 'c'],
-      keywords: 'go-podcasts',
-      section: 'Go To',
-      perform: () => router.push('/podcasts'),
-      icon: <Lottie lottieRef={podcastsRef} style={iconSize} animationData={podcastsIcon} loop={false} autoplay={false} />,
-    },
-    {
-      id: 'investing',
-      name: 'Investing',
-      shortcut: ['g', 'i'],
-      keywords: 'go-investing',
-      section: 'Go To',
-      perform: () => router.push('/investing'),
-      icon: <Lottie lottieRef={investingRef} style={iconSize} animationData={investingIcon} loop={false} autoplay={false} />,
-    },
-    {
-      id: 'uses',
-      name: 'Uses',
-      shortcut: ['g', 'u'],
-      keywords: 'go-uses',
-      section: 'Go To',
-      perform: () => router.push('/uses'),
-      icon: <Lottie lottieRef={usesRef} style={iconSize} animationData={usesIcon} loop={false} autoplay={false} />,
-    },
-    {
-      id: 'reminder',
-      name: 'Reminder',
-      shortcut: ['g', 'r'],
+      id: 'books',
+      name: 'Books',
+      shortcut: ['g', 'b'],
       keywords: 'go-reminder',
       section: 'Go To',
-      perform: () => router.push('/reminder'),
+      perform: () => router.push('/books'),
       icon: <Lottie lottieRef={reminderRef} style={iconSize} animationData={reminderIcon} loop={false} autoplay={false} />,
     },
   ]
