@@ -8,7 +8,7 @@ export async function getStaticProps() {
   const meta = {
     title: 'Books // Samuel Ironkwe',
     description:
-      "Below are some books that I have read and I think are <strong> worth sharing. </strong> I plan on doing a lot more reading in 2024 so feel free to send me suggestions by <strong> email. </strong>",
+      "",
     tagline: 'Fiction. Self Improvement. Startups.',
     image: '/static/images/books-bw.jpg',
     primaryColor: 'yellow',
@@ -53,8 +53,9 @@ function Books(props) {
         <meta content={`https://ironkwe.pro${image}`} property="og:image" />
       </Head>
 
-      <p dangerouslySetInnerHTML={{ __html: description }} />
-
+      <Paragraph>
+        Below are some books that I have read and I think are <strong> worth sharing. </strong>
+        I plan on doing a lot more reading in 2024 so feel free to send me suggestions by <a href='/contact'> email. </a>  </Paragraph>
       {renderAll()}
     </>
   )

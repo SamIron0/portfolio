@@ -60,7 +60,7 @@ function About(props) {
           </Paragraph>
           <Paragraph>
             I'm currently a freelance web developer, crafting sleek websites for a diverse set of clients, I do most of my work with  TypeScript, JavaScript and Python. Before that, I worked as a Software Developer Intern at PrologueXR up in the Great White North, Quebec, Canada while studying for my computer science degree at the University of Manitoba from '18 to '23.
-            Right now, when I'm not juggling client gigs, I'm building out cruiseo.xyz for the world to get around cheaper and more sustainably. Originally from Nigeria, I reside in <strong> Winnipeg, Manitoba, </strong> which has a growing tech scene. My passion? Creating software that improves my users' standard of living. Dive into my codebase over at <a href={item.companyUrl} target="_blank">github.com/SamIron0</a> 💻✨
+            Right now, when I'm not juggling client gigs, I'm building out cruiseo.xyz for the world to get around cheaper and more sustainably. Originally from Nigeria, I reside in <strong> Winnipeg, Manitoba, </strong> which has a growing tech scene. My passion? Creating software that improves my users' standard of living. Dive into my codebase over at <a href='/github.com/SamIron0' target="_blank">github.com/SamIron0</a> 💻✨
           </Paragraph>
           <Paragraph>
             <strong>I love startups</strong>, open source and side projects.
