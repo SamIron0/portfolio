@@ -9,7 +9,7 @@ export async function getStaticProps() {
     title: 'Books // Samuel Ironkwe',
     description:
       "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
-    tagline: 'Fiction. Self Improvement. .',
+    tagline: 'Fiction. Self Improvement. Startups.',
     image: '/static/images/uses-bw.jpg',
     primaryColor: 'yellow',
     secondaryColor: 'pink',
@@ -57,6 +57,6 @@ function Books(props) {
   )
 }
 
-Uses.Layout = Base
+Books.Layout = Base
 
-export default Uses
+export default Books
