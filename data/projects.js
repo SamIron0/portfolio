@@ -50,11 +50,7 @@ const items = [
         url: 'https://vestaatelierstudio.wixstudio.io/plumbing',
         active: true,
       },
-      {
-        title: 'Punjab Food Corner',
-        url: 'https://vestaatelierstudio.wixstudio.io/plumbing',
-        active: true,
-      },
+     
     ],
   },
   {

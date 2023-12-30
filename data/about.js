@@ -1,7 +1,7 @@
 const items = [
   {
    jobTitle: 'Full Stack Engineer',
-   company: 'Self Employed',
+   company: 'Freelance',
    companyUrl: 'https://samuel.pro',
    startDate: '2021-01-01',
    location: 'Remote',
