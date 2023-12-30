@@ -26,8 +26,8 @@ function Books(props) {
       return (
         <div key={index}>
           <ul>
-            <li key={iIndex}>
-              {category.items.map((item, iIndex) => {
+            <li >
+              {category.items.map((item) => {
                 return (
                   <p>
                     {item.title}
