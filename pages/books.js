@@ -59,6 +59,10 @@ function Books(props) {
   )
 }
 
+const Paragraph = styled('p', {
+  '@bp2': { margin: '15px 0' },
+})
+
 Books.Layout = Base
 
 export default Books
