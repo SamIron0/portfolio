@@ -8,9 +8,9 @@ export async function getStaticProps() {
   const meta = {
     title: 'Books // Samuel Ironkwe',
     description:
-      "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
+      "Below are some books that I have read and I think are <strong> worth sharing. </strong> I plan on doing a lot more reading in 2024 so feel free to send me suggestions by <strong> email. </strong>",
     tagline: 'Fiction. Self Improvement. Startups.',
-    image: '/static/images/uses-bw.jpg',
+    image: '/static/images/books-bw.jpg',
     primaryColor: 'yellow',
     secondaryColor: 'pink',
   }
@@ -26,13 +26,16 @@ function Books(props) {
       return (
         <div key={index}>
           <ul>
-            {category.items.map((item, iIndex) => {
-              return (
-                <p>
-                  {item.title}
-                </p>
-              )
-            })}
+            <li key={iIndex}>
+              {category.items.map((item, iIndex) => {
+                return (
+                  <p>
+                    {item.title}
+                  </p>
+                )
+              })}
+            </li>
+
           </ul>
         </div>
       )
