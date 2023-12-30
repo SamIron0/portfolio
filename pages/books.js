@@ -26,15 +26,13 @@ function Books(props) {
       return (
         <div key={index}>
           <ul>
-            <li >
-              {category.items.map((item) => {
-                return (
-                  <p>
-                    {item.title}
-                  </p>
-                )
-              })}
-            </li>
+            {category.items.map((item) => {
+              return (
+                <li >
+                  {item.title}
+                </li>
+              )
+            })}
 
           </ul>
         </div>
