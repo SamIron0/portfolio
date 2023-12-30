@@ -2,11 +2,11 @@ import React from 'react'
 import Head from 'next/head'
 import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
-import categories from '../data/uses'
+import categories from '../data/books'
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Uses // Samuel Ironkwe',
+    title: 'Books // Samuel Ironkwe',
     description:
       "I often get messages asking about specific pieces of <strong>software or hardware I use</strong>. This not a static page, it's a <strong>living document</strong> with everything that I'm using nowadays.",
     tagline: 'Fiction. Self Improvement. .',
