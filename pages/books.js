@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Base from '../layouts/Base'
 import stripHtml from '../lib/strip-html'
 import categories from '../data/books'
+import { styled } from '../stitches.config'
 
 export async function getStaticProps() {
   const meta = {
