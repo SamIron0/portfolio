@@ -10,7 +10,7 @@ const items = [
         active: true,
         icon: "resend",
         stats: "Next.js, Typescript, React",
-        image: "/static/images/samuel.jpg",
+        image: "/static/images/cruiseo.png",
       },
       {
         title: "Fitpal AI",
@@ -20,6 +20,7 @@ const items = [
         icon: "email",
         stats: "Next.js, Node.js, Typescript, React, Supabase",
         image: "/static/images/fitpalai.png",
+
       },
 
       {
@@ -48,7 +49,7 @@ const items = [
         description: "Streetwear clothing store",
         url: "https://vestaatelierstudio.wixstudio.io/plumbing",
         active: true,
-        image: "ironkwesite.png",
+        image: "secplumbing.png",
       },
     ],
   },
@@ -59,7 +60,7 @@ const items = [
         title: "Punjab Food Corner",
         url: "https://vestaatelierstudio.wixstudio.io/website",
         active: true,
-        image: "ironkwesite.png",
+        image: "pfc.png",
       },
     ],
   },
