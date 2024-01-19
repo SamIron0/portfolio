@@ -14,13 +14,13 @@ const items = [
       },
       {
         title: "Fitpal AI",
-        description: "Customizable meal generator",
+        description:
+          "Meal plan generator built with the Next.js framework that leverages the OpenAI API to generate personalized meal plans according to user specifications. Authentication is seamlessly managed through Supabase. This project optimizes efficiency by employing multiple serverless functions operating in parallel to expedite the generation of various components of the meal plan.",
         url: "https://fitpalai.com",
         active: true,
         icon: "email",
         stats: "Next.js, Node.js, Typescript, Postgres, React",
         image: "/static/images/fitpalai.png",
-
       },
 
       {
@@ -63,7 +63,7 @@ const items = [
         url: "https://vestaatelierstudio.wixstudio.io/website",
         active: true,
         stats: "Wix",
-       image: "pfc.png",
+        image: "pfc.png",
       },
     ],
   },
