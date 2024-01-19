@@ -65,7 +65,6 @@ const Project = styled("a", {
   textDecoration: "none",
   width: "100%", // Set width to 100%
   "&:hover": { opacity: 1 },
-  "@bp2": { width: 180 },
 });
 
 const Body = styled("div", {
