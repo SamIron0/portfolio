@@ -74,7 +74,7 @@ const categories = [
         description:
           'Super cool app that adds VSCode-style autocomplete to your existing terminal',
       }, {
-        title: 'The Invesetors Dilemma',
+        title: 'The Investors Dilemma',
         description: 'The first thing I install on any new device.',
       },
     ],
