@@ -17,6 +17,7 @@ export default function FeaturedProject(props) {
       onMouseLeave={() => iconRef.current?.stop()}
     >
       <Animation index={props.index}>
+        <Image src={project.image} />
         <Lottie
           lottieRef={iconRef}
           style={{ width: 24, height: 24, marginBottom: 10 }}

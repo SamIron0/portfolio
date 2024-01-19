@@ -10,6 +10,7 @@ const items = [
         active: true,
         icon: "resend",
         stats: "Next.js, Typescript, React",
+        image: "cruiseo.png",
       },
       {
         title: "Fitpal AI",
@@ -18,14 +19,9 @@ const items = [
         active: true,
         icon: "email",
         stats: "Next.js, Node.js, Typescript, React, Supabase",
+        image: "fitpalai.png",
       },
-      {
-        title: "MarketOS",
-        url: "https://workos.com",
-        active: true,
-        icon: "palette",
-        stats: "Next.js, Python, Typescript, React",
-      },
+
       {
         title: "Portfolio",
         description: "My personal website",
@@ -33,6 +29,7 @@ const items = [
         active: true,
         icon: "resend",
         stats: "Next.js, Javascript, React",
+        image: "ironkwesite.png",
       },
     ],
   },
