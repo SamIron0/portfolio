@@ -7,7 +7,7 @@ const items = [
    location: 'Remote',
  },
  {
-   jobTitle: 'Founder & CEO',
+   jobTitle: 'Founder',
    company: 'Cruiseo',
    companyUrl: 'https://cruiseo.xyz',
    startDate: '2023-11-01',
