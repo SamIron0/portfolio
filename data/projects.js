@@ -10,7 +10,7 @@ const items = [
         active: true,
         icon: "resend",
         stats: "Next.js, Typescript, React",
-        image: "cruiseo.png",
+        image: "/static/images/samuel.jpg",
       },
       {
         title: "Fitpal AI",
@@ -19,7 +19,7 @@ const items = [
         active: true,
         icon: "email",
         stats: "Next.js, Node.js, Typescript, React, Supabase",
-        image: "fitpalai.png",
+        image: "/static/images/fitpalai.png",
       },
 
       {
