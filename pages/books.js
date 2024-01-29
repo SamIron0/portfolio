@@ -48,8 +48,8 @@ function Books(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://ironkwe.pro/books" property="og:url" />
-        <meta content={`https://ironkwe.pro${image}`} property="og:image" />
+        <meta content="https://ironkwe.site/books" property="og:url" />
+        <meta content={`https://ironkwe.site${image}`} property="og:image" />
       </Head>
 
       <Paragraph>

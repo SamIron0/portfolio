@@ -7,10 +7,10 @@ export default async function sendEmail(req, res) {
     const data = req.body
 
     await resend.sendEmail({
-      from: 'zenorocha.com <website@ironkwe.pro>',
+      from: 'ironkwe.site <website@ironkwe.site>',
       to: 'samuelironkwec@gmail.com',
       replyTo: data.email,
-      subject: `${data.name} - via ironkwe.pro`,
+      subject: `${data.name} - via ironkwe.site`,
       react: <EmailTemplate {...data} />,
     })
 

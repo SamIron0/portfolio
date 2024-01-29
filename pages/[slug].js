@@ -11,11 +11,11 @@ function Post(props) {
 
   const title = `${props.title} // Samuel Ironkwe`
   const description = props.description || ''
-  const url = `https://ironkwe.pro/${props.slug}`
+  const url = `https://ironkwe.site/${props.slug}`
   const date = new Date(props.date).toISOString()
   const image = props.image
-    ? `https://ironkwe.pro${props.image}`
-    : 'https://ironkwe.pro/static/images/home-opt.jpg'
+    ? `https://ironkwe.site${props.image}`
+    : 'https://ironkwe.site/static/images/home-opt.jpg'
 
   return (
     <>
@@ -64,7 +64,7 @@ export async function getStaticProps({ params }) {
     const content = await convertMarkdownToHtml(post.content || '')
 
     const isProd = process.env.NODE_ENV === 'production'
-    const base = isProd ? 'https://ironkwe.pro' : 'http://localhost:3000'
+    const base = isProd ? 'https://ironkwe.site' : 'http://localhost:3000'
 
     if (isProd) {
       const viewsReq = await fetch(`${base}/api/views/${params.slug}`)
