@@ -47,7 +47,7 @@ const items = [
       },
       {
         title: "SEC Plumbing",
-        description: "Streetwear clothing store",
+        description: "Local plumbers",
         url: "https://vestaatelierstudio.wixstudio.io/plumbing",
         icon: "resend",
         active: true,
@@ -61,6 +61,7 @@ const items = [
     projects: [
       {
         title: "Punjab Food Corner",
+        description: "Indian restaurant",
         url: "https://vestaatelierstudio.wixstudio.io/website",
         active: true,
         icon: "resend",
