@@ -54,7 +54,7 @@ function About(props) {
             <strong>software engineer</strong> in the early years of my career.
           </Paragraph>
           <Paragraph>
-            I'm currently a freelance web developer, crafting sleek websites for
+            I'm currently working as a freelance web developer, crafting sleek websites for
             a diverse set of clients, I do most of my work with TypeScript,
             JavaScript and Python. Before that, I worked as a Software Developer
             Intern at PrologueXR up in the Great White North, Quebec, Canada
