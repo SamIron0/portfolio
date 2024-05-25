@@ -1,55 +1,54 @@
-import React from 'react'
-import Head from 'next/head'
-import Base from '../layouts/Base'
-import stripHtml from '../lib/strip-html'
-import Toast from '../components/Toast'
-import { Box } from '../components/Box'
-import { styled } from '../stitches.config'
+import React from "react";
+import Head from "next/head";
+import Base from "../layouts/Base";
+import stripHtml from "../lib/strip-html";
+import Toast from "../components/Toast";
+import { Box } from "../components/Box";
+import { styled } from "../stitches.config";
 
 export async function getStaticProps() {
   const meta = {
-    title: 'Contact // Samuel Ironkwe',
-    tagline: 'Email me.',
-    image: '/static/images/samuel.jpg',
-    primaryColor: 'cyan',
-    secondaryColor: 'green',
-  }
+    title: "Contact // Samuel Ironkwe",
+    tagline: "Email me.",
+    image: "/static/images/samuel.jpg",
+    primaryColor: "cyan",
+    secondaryColor: "green",
+  };
 
-  return { props: meta }
+  return { props: meta };
 }
 
 function Contact(props) {
-  const { title, image } = props
-  const description = `<strong>I love connecting </strong> with software engineers, hiring managers, founders, and creators. <strong>I'm open to work, </strong> so contact me and I will reply right away.`
-  const [isEmailSent, setIsEmailSent] = React.useState(undefined)
-  const [showToast, setShowToast] = React.useState(false)
+  const { title, image } = props;
+  const description = `<strong>I love connecting </strong> with entrepreneurs, engineers, indiehackers and more. <strong>I'm open to work, </strong> so contact me and I will reply right away.`;
+  const [isEmailSent, setIsEmailSent] = React.useState(undefined);
+  const [showToast, setShowToast] = React.useState(false);
 
   const onSendEmail = async (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
     try {
-      const isProd = process.env.NODE_ENV === 'production'
-      const base = isProd ? 'https://samuel.pro' : 'http://localhost:3000'
+      const isProd = process.env.NODE_ENV === "production";
+      const base = isProd ? "https://ironkwe.site" : "http://localhost:3000";
 
       await fetch(`${base}/api/email`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: e.target.name.value,
           email: e.target.email.value,
           message: e.target.message.value,
         }),
-      })
+      });
 
-      setIsEmailSent(true)
-      setShowToast(true)
+      setIsEmailSent(true);
+      setShowToast(true);
+    } catch (e) {
+      console.error(e);
+      setIsEmailSent(false);
+      setShowToast(true);
     }
-    catch(e) {
-      console.error(e)
-      setIsEmailSent(false)
-      setShowToast(true)
-    }
-  }
+  };
 
   return (
     <>
@@ -72,11 +71,21 @@ function Contact(props) {
           </FormGroup>
           <FormGroup>
             <Label htmlFor="email">Email</Label>
-            <Input id="email" type="email" placeholder="james@bond.com" required />
+            <Input
+              id="email"
+              type="email"
+              placeholder="james@bond.com"
+              required
+            />
           </FormGroup>
           <FormGroup>
             <Label htmlFor="message">Message</Label>
-            <Textarea id="message" placeholder="How can I help you?" rows="4" required />
+            <Textarea
+              id="message"
+              placeholder="How can I help you?"
+              rows="4"
+              required
+            />
           </FormGroup>
           <FormGroup>
             <Button type="submit">Send</Button>
@@ -84,67 +93,80 @@ function Contact(props) {
         </Form>
 
         <Toast
-          title={isEmailSent ? 'Email sent :D' : 'Error :('}
-          description={isEmailSent ? 'Thanks for taking the time to write it.' : 'Something wrong happened. Try again later.'}
+          title={isEmailSent ? "Email sent :D" : "Error :("}
+          description={
+            isEmailSent
+              ? "Thanks for taking the time to write it."
+              : "Something wrong happened. Try again later."
+          }
           isSuccess={isEmailSent}
           showToast={showToast}
           setShowToast={setShowToast}
         />
       </Box>
     </>
-  )
+  );
 }
 
-const Form = styled('form', {
-  display: 'flex',
-  flexDirection: 'column',
-  maxWidth: '400px'
-})
+const Form = styled("form", {
+  display: "flex",
+  flexDirection: "column",
+  maxWidth: "400px",
+});
 
-const FormGroup = styled('div', {
-  display: 'flex',
-  flexDirection: 'column',
-  marginBottom: '10px',
-})
+const FormGroup = styled("div", {
+  display: "flex",
+  flexDirection: "column",
+  marginBottom: "10px",
+});
 
-const Label = styled('label', {
-  color: '$secondary',
-  textTransform: 'uppercase',
-  fontSize: '12px',
-  fontWeight: '500'
-})
+const Label = styled("label", {
+  color: "$secondary",
+  textTransform: "uppercase",
+  fontSize: "12px",
+  fontWeight: "500",
+});
 
-const Input = styled('input', {
-  color: '$primary',
-  background: 'none',
-  border: '1px solid $secondary',
-  borderRadius: '$borderRadius',
-  padding: '10px',
-  '&:focus': { outline: 'none', borderColor: '$cyan' },
-})
+const Input = styled("input", {
+  color: "$primary",
+  background: "none",
+  border: "1px solid $secondary",
+  borderRadius: "$borderRadius",
+  padding: "10px",
+  "&:focus": { outline: "none", borderColor: "$cyan" },
+});
 
-const Textarea = styled('textarea', {
-  color: '$primary',
-  background: 'none',
-  border: '1px solid $secondary',
-  borderRadius: '$borderRadius',
-  padding: '10px',
-  '&:focus': { outline: 'none', borderColor: '$cyan' },
-})
+const Textarea = styled("textarea", {
+  color: "$primary",
+  background: "none",
+  border: "1px solid $secondary",
+  borderRadius: "$borderRadius",
+  padding: "10px",
+  "&:focus": { outline: "none", borderColor: "$cyan" },
+});
 
-const Button = styled('button', {
-  color: '$background',
-  background: '#fff',
-  border: '1px solid #fff',
-  borderRadius: '$borderRadius',
-  cursor: 'pointer',
-  padding: '10px',
-  marginTop: '5px',
-  transition: 'all 0.2s ease-in-out',
-  '&:hover': { background: 'transparent', borderColor: '$cyan', color: '$cyan' },
-  '&:focus': { background: 'transparent', borderColor: '$cyan', color: '$cyan', outline: 'none' },
-})
+const Button = styled("button", {
+  color: "$background",
+  background: "#fff",
+  border: "1px solid #fff",
+  borderRadius: "$borderRadius",
+  cursor: "pointer",
+  padding: "10px",
+  marginTop: "5px",
+  transition: "all 0.2s ease-in-out",
+  "&:hover": {
+    background: "transparent",
+    borderColor: "$cyan",
+    color: "$cyan",
+  },
+  "&:focus": {
+    background: "transparent",
+    borderColor: "$cyan",
+    color: "$cyan",
+    outline: "none",
+  },
+});
 
-Contact.Layout = Base
+Contact.Layout = Base;
 
-export default Contact
+export default Contact;
