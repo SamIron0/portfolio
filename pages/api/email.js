@@ -11,7 +11,7 @@ export default async function sendEmail(req, res) {
       to: "samuelironkwec@gmail.com",
       replyTo: data.email,
       subject: `${data.name} - via ironkwe.site`,
-      react: <div> {...data.message} </div>,
+      react: <div> {data.message} </div>,
     });
 
     res.status(200).json({ message: "Email sent" });
