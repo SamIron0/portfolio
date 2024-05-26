@@ -1,7 +1,5 @@
 import { Resend } from "resend";
 const resend = new Resend(process.env.RESEND_API_KEY);
-import EmailTemplate from "../../components/EmailTemplate";
-
 export default async function sendEmail(req, res) {
   try {
     const data = req.body;
