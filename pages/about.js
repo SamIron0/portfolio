@@ -51,27 +51,24 @@ function About(props) {
             }}
           >
             <strong>Hello, I'm Samuel Ironkwe </strong>I am a{" "}
-            <strong>software engineer</strong> in the early years of my career.
+            <strong>full stack engineer</strong> with years of industry
+            experience.
           </Paragraph>
           <Paragraph>
-            I'm currently working as a freelance web developer, crafting sleek websites for
-            a diverse set of clients, I do most of my work with TypeScript,
-            JavaScript and Python. Before that, I worked as a Software Developer
-            Intern at PrologueXR up in the Great White North, Quebec, Canada
-            while studying for my computer science degree at the University of
-            Manitoba from '18 to '23. Right now, when I'm not juggling client
-            work, I'm building out cruiseo.xyz for the world to get around
-            cheaper and more sustainably by carpooling. Originally from Nigeria,
-            I reside in <strong> Winnipeg, Manitoba, </strong> which has a
-            growing tech scene. My passion? Creating software that helps small
-            businesses scale and grow. Dive into my codebase over at{" "}
+            I have previously worked for Health Uninverse where I got to build
+            out various tools and features across the website. I quit in
+            Febraury to travel and build cruiseo. Before that, I worked as a
+            Software Developer Intern at PrologueXR up in the Great White North,
+            Quebec, Canada while studying for my computer science degree at the
+            University of Manitoba from '18 to '22. I am currently seeking a new
+            role where i get to improve my skills and build amazing products.{" "}
+            <strong> Dive</strong> into my codebase over at{" "}
             <a href="/github.com/SamIron0" target="_blank">
               github.com/SamIron0
             </a>{" "}
             💻✨
           </Paragraph>
           <Paragraph>
-            <strong>I love startups</strong>, open source and side projects.
             When I'm not working, I like weightlifting, watching movies, and{" "}
             <strong>cooking</strong>.
           </Paragraph>
