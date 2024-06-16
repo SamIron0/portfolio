@@ -30,12 +30,20 @@ export default function Index(props) {
         <meta content="https://ironkwe.site" property="og:url" />
         <meta content={`https://ironkwe.site/${image}`} property="og:image" />
         <script
-          type="application/ld+json"
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-B26F3B1N2E"
+        ></script>
+        <script
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify(getPersonJsonLd()),
+            __html: `
+                 window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-B26F3B1N2E');
+              `,
           }}
-          key="person-jsonld"
-        />
+        ></script>
       </Head>
 
       <Navbar />
