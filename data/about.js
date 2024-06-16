@@ -4,10 +4,8 @@ const items = [
    company: 'Health Universe',
    companyUrl: 'https://ironkwe.site',
    startDate: '2022-09-01',
-   endDate: '2024-02-31',
    location: 'Remote',
  },
-
  {
    jobTitle: 'Software Developer Intern',
    company: 'Prologue',
