@@ -13,65 +13,27 @@ const items = [
         image: "/static/images/cruiseo.png",
       },
       {
+        title: "Scrapify",
+        description: "AI powered web scraper, using Llama 3",
+        url: "https://scrapy-nu.vercel.app/",
+        icon: "resend",
+        active: true,
+        stats: "Wix",
+        image: "/static/images/secplumbing.png",
+      },
+      {
         title: "Fitpal AI",
-        description:
-          "Meal plan generator built with the Next.js framework that leverages the OpenAI API to generate personalized meal plans according to user specifications. Authentication is seamlessly managed through Supabase. This project optimizes efficiency by employing multiple serverless functions operating in parallel to expedite the generation of various components of the meal plan.",
+        description: "AI based query to food matching, built using Llama 3.",
         url: "https://fitpalai.com",
         active: true,
         icon: "email",
         stats: "Next.js, Node.js, Typescript, Postgres, React",
         image: "/static/images/fitpalai.png",
       },
-      {
-        title: "Portfolio",
-        description: "My personal website",
-        url: "https://samuel.pro",
-        active: true,
-        icon: "resend",
-        stats: "Next.js, Javascript, React, CSS",
-        image: "/static/images/portfolio.png",
-      },
-    ],
-  },
-  {
-    year: "2022",
-    projects: [
-      {
-        title: "Vesta Atelier",
-        description: "Streetwear clothing store",
-        url: "https://vestaatelier.com",
-        active: true,
-        icon: "resend",
-        stats: "Shopify",
-        image: "/static/images/fitpalai.png",
-      },
-      {
-        title: "SEC Plumbing",
-        description: "Local plumbers",
-        url: "https://vestaatelierstudio.wixstudio.io/plumbing",
-        icon: "resend",
-        active: true,
-        stats: "Wix",
-        image: "/static/images/secplumbing.png",
-      },
     ],
   },
   {
     year: "2021",
-    projects: [
-      {
-        title: "Punjab Food Corner",
-        description: "Indian restaurant",
-        url: "https://vestaatelierstudio.wixstudio.io/website",
-        active: true,
-        icon: "resend",
-        stats: "Wix",
-        image: "/static/images/pfc.png",
-      },
-    ],
-  },
-  {
-    year: "2020",
     projects: [
       {
         title: "HelloPizza",
