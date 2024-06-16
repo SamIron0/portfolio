@@ -5,7 +5,7 @@ const items = [
       {
         title: "Cruiseo",
         description:
-          "Ride-share platform developed using the Next.js framework, TypeScript, and React. It incorporates a Postgres database hosted on the Supabase platform. A portion of the server is coded in Python and is self-hosted on my MacBook Air, utilizing a Gunicorn server behind Ngrok. I have established a REST API on Amazon Web Services, where the endpoint triggers an Amazon Lambda function, subsequently calling my Ngrok server. Each time the price appears on your screen, it is retrieved from the web by the script currently running on my laptop.",
+          "Ride-share platform developed using the Next.js framework, TypeScript, and React. The platform uses a Postgres database on the backend and leverages the Google Maps API for precise distance measurements and price calculation ",
         url: "https://cruiseo.xyz",
         active: true,
         icon: "resend",
