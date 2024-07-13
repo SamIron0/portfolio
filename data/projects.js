@@ -3,6 +3,15 @@ const items = [
     year: "2023",
     projects: [
       {
+        title: "Fitpal AI",
+        description: "Recipe search engine.",
+        url: "https://www.fitpalai.com",
+        active: true,
+        icon: "email",
+        stats: "Next.js, Node.js, Typescript, Postgres, React,NLP",
+        image: "/static/images/fitpalai.png",
+      },
+      {
         title: "Cruiseo",
         description:
           "Ride-share platform developed using the Next.js framework, TypeScript, and React. The platform uses a Postgres database on the backend and leverages the Google Maps API for precise distance measurements and price calculation ",
@@ -20,15 +29,6 @@ const items = [
         active: true,
         stats: "Wix",
         image: "/static/images/secplumbing.png",
-      },
-      {
-        title: "Fitpal AI",
-        description: "AI based query to food matching, built using Llama 3.",
-        url: "https://fitpalai.com",
-        active: true,
-        icon: "email",
-        stats: "Next.js, Node.js, Typescript, Postgres, React",
-        image: "/static/images/fitpalai.png",
       },
     ],
   },

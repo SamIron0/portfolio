@@ -161,10 +161,6 @@ const Paragraph = styled("p", {
   "@bp2": { margin: "15px 0" },
 });
 
-const ButtonsContainer = styled("p", {
-  display: "flex",
-  alignItems: "center",
-});
 
 const Section = styled("div", {
   marginTop: "0px",
