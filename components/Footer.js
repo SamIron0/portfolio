@@ -8,11 +8,7 @@ export default function Footer() {
       url: "/contact",
       icon: "ri-mail-line",
     },
-    {
-      title: "X",
-      url: "https://twitter.com/csi0x",
-      icon: "ri-twitter-x-line",
-    },
+
     {
       title: "GitHub",
       url: "https://github.com/SamIron0",

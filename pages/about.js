@@ -57,10 +57,10 @@ function About(props) {
           <Paragraph>
             I have previously worked for Health Uninverse where I got to build
             out various tools and features across the website. I quit in
-            Febraury to travel and build cruiseo. Before that, I worked as a
+            Febraury to travel and build out personal projects. Before that, I worked as a
             Software Developer Intern at PrologueXR up in the Great White North,
             Quebec, Canada while studying for my computer science degree at the
-            University of Manitoba from '18 to '22. I am currently seeking a new
+            University of Manitoba from '18 to '23. I am currently seeking a new
             role where i get to improve my skills and build amazing products.{" "}
             <strong> Dive</strong> into my codebase over at{" "}
             <a href="/github.com/SamIron0" target="_blank">

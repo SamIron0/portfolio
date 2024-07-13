@@ -5,14 +5,12 @@ import Footer from "../components/Footer";
 import ShortcutHome from "../components/ShortcutHome";
 import { PostMain, PostContent, PostContainer } from "../components/Post";
 import { Wrapper } from "../components/Wrapper";
-import { getPersonJsonLd } from "../lib/json-ld";
-
 export async function getStaticProps() {
   return {
     props: {
       title: "Samuel Ironkwe",
-      description: "Obsessed with developer experience",
-      image: "/static/images/smauel.jpg",
+      description: "Obsessed with solving real problems and building awesome things",
+      image: "/static/images/samuel.jpg",
     },
   };
 }
