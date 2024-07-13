@@ -9,7 +9,8 @@ export async function getStaticProps() {
   return {
     props: {
       title: "Samuel Ironkwe",
-      description: "Obsessed with solving real problems and building awesome things",
+      description:
+        "Obsessed with solving real problems and building awesome things",
       image: "/static/images/samuel.jpg",
     },
   };
@@ -54,8 +55,8 @@ export default function Index(props) {
                 <strong>Software Engineer and Entrepreneur</strong>
                 <br />
                 Currently building{" "}
-                <a href="https://cruiseo.xyz" target="blank">
-                  Cruiseo
+                <a href="https://fitpalai.com" target="blank">
+                  Fitpalai
                 </a>
               </p>
               <ShortcutHome />
