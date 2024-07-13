@@ -26,9 +26,7 @@ function About(props) {
   const [toastTitle, setToastTitle] = React.useState("");
   const [toastDescription, setToastDescription] = React.useState("");
   const [showToast, setShowToast] = React.useState(false);
-  const copyBioRef = React.useRef();
-  const downloadRef = React.useRef();
-
+  
   const renderIntro = () => {
     return (
       <Container>
