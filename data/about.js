@@ -2,8 +2,8 @@ const items = [
   {
    jobTitle: 'Full Stack Engineer',
    company: 'Health Universe',
-   companyUrl: 'https://ironkwe.site',
-   startDate: '2022-09-01',
+   companyUrl: 'https://www.healthuniverse.com/',
+   startDate: '2023-09-01',
    location: 'Remote',
  },
  {
