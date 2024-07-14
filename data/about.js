@@ -12,7 +12,7 @@ const items = [
    companyUrl: 'https://www.prologuexr.com',
    startDate: '2020-05-01',
    endDate: '2020-08-31',
-   location: 'Quebec',
+   location: 'Remote',
  },
 ]
 
