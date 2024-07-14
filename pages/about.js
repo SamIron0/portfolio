@@ -49,13 +49,11 @@ function About(props) {
             }}
           >
             <strong>Hello, I'm Samuel Ironkwe </strong>I am a{" "}
-            <strong>full stack engineer</strong> with years of industry
-            experience.
+            <strong>full stack engineer.</strong>
           </Paragraph>
           <Paragraph>
             I have previously worked for Health Uninverse where I got to build
-            out various tools and features across the website. I quit in
-            Febraury to travel and build out personal projects. Before that, I worked as a
+            out various tools and features across the website. Before that, I worked as a
             Software Developer Intern at PrologueXR up in the Great White North,
             Quebec, Canada while studying for my computer science degree at the
             University of Manitoba from '18 to '23. I am currently seeking a new
