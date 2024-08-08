@@ -16,7 +16,7 @@ export default function Footer() {
     },
     {
       title: "Linkedin",
-      url: "https://www.linkedin.com/in/samuel-ironkwe-79607a174/",
+      url: "https://www.linkedin.com/in/samuel-ironkwe-a5280a320/",
       icon: "ri-linkedin-line",
     },
   ];
