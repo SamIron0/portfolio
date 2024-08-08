@@ -55,7 +55,7 @@ export default function Index(props) {
                 <strong>Software Engineer and Entrepreneur</strong>
                 <br />
                 Currently building{" "}
-                <a href="https://fitpalai.com" target="blank">
+                <a href="https://fitpalai.xyz" target="blank">
                   Fitpalai
                 </a>
               </p>
