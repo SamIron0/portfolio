@@ -91,8 +91,6 @@ function About(props) {
                 ? format(parseISO(item.endDate), "LLL yyyy")
                 : "Present"}
             </span>
-            <span> • </span>
-            <span>{getDuration(item.startDate, item.endDate)}</span>
           </p>
         </div>
       );
