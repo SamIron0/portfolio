@@ -52,7 +52,7 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Software Engineer and Entrepreneur</strong>
+                <strong>Software Developer and Entrepreneur</strong>
                 <br />
                 Currently building{" "}
                 <a href="https://fitpalai.xyz" target="blank">
