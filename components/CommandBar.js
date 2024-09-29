@@ -18,7 +18,6 @@ import sourceIcon from '../public/static/icons/source.json'
 import aboutIcon from '../public/static/icons/about.json'
 import homeIcon from '../public/static/icons/home.json'
 import projectsIcon from '../public/static/icons/projects.json'
-import booksIcon from '../public/static/icons/books.json'
 
 export default function CommandBar(props) {
   const emailRef = useRef()
@@ -80,15 +79,7 @@ export default function CommandBar(props) {
       perform: () => router.push('/projects'),
       icon: <Lottie lottieRef={projectsRef} style={iconSize} animationData={projectsIcon} loop={false} autoplay={false} />,
     },
-    {
-      id: 'books',
-      name: 'Books',
-      shortcut: ['g', 'b'],
-      keywords: 'go-reminder',
-      section: 'Go To',
-      perform: () => router.push('/books'),
-      icon: <Lottie lottieRef={reminderRef} style={iconSize} animationData={booksIcon} loop={false} autoplay={false} />,
-    },
+  
   ]
 
   return (
