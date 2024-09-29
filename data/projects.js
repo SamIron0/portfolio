@@ -24,7 +24,7 @@ const items = [
       },
     ],
   },
-  {
+  { 
     year: "2022",
     projects: [
       {
