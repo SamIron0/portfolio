@@ -1,16 +1,16 @@
 const items = [
   {
-    year: "2023",
+    year: "2024",
     projects: [
       {
         title: "Remeal",
         description: "Recipe matching engine.",
         url: "https://www.remeal.xyz",
         active: true,
-        icon: "email",
+        icon: "resend",
         stats:
           "NextJS, Typescript, Tailwind CSS, Python, PostgreSQL, Express, Node.js",
-        image: "/static/images/fitpalai.png",
+        image: "/static/images/remeal.png",
       },
       {
         title: "Scrapify",
@@ -19,28 +19,24 @@ const items = [
         icon: "resend",
         active: true,
         stats:
-          "Python, Flask, Selenium, BeautifulSoup, LangChain,OpenAI API, pytest",
-        image: "/static/images/secplumbing.png",
+          "Python, Flask, Selenium, BeautifulSoup, LangChain, OpenAI API, pytest",
       },
-    ],
-  },
-  {
-    year: "2021",
-    projects: [
       {
         title: "Pizza App",
         description: "Pizza ordering app",
         url: "https://github.com/SamIron0/Pizza_App",
-        active: "Java",
-        image: "/static/images/fitpalai.png",
+        icon: "resend",
+        active: true,
+        stats: "Java",
       },
       {
         title: "Facial Recognition",
-        description: "Rudimentary facial recognition software",
+        description:
+          "Rudimentary facial recognition system using eigenface analysis.",
         url: "https://github.com/SamIron0/Facial-Recognition",
-        active: false,
+        active: true,
+        icon: "resend",
         stats: "Python",
-        image: "/static/images/fitpalai.png",
       },
     ],
   },

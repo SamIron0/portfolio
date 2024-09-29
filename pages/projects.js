@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ["Remeal", "Scrapify"];
+    const featured = ["Remeal","Scrapify","Pizza App","Facial Recognition"];
 
     return items
       .map((item) => {
@@ -36,23 +36,8 @@ function Projects(props) {
       })
       .flat()
       .map((item, index) => {
-        return <Featured  Project key={index} project={item} />;
+        return <FeaturedProject key={index} project={item} />;
       });
-  };
-
-  const renderAll = () => {
-    return items.map((item, index) => {
-      return (
-        <div key={index}>
-          <h3>{item.year}</h3>
-          <ul>
-            {item.projects.map((project, pIndex) => {
-              return <ProjectItem key={pIndex} project={project} />;
-            })}
-          </ul>
-        </div>
-      );
-    });
   };
 
   const getTotalProjects = () => {
@@ -66,7 +51,7 @@ function Projects(props) {
   };
 
   const { title, image } = props;
-  const description = `I'm obsessed with taking on new projects and <strong>building web applications</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites and apps that I built.`;
+  const description = `I'm obsessed with taking on new projects and <strong>building useful applications</strong>. Here you can navigate to <strong>${getTotalProjects()} different</strong> websites and apps that I built.`;
 
   return (
     <>
