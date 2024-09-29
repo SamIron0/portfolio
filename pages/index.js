@@ -53,10 +53,10 @@ export default function Index(props) {
               <h1>{title}</h1>
               <p>
                 <strong>Software Engineer</strong>
-                <br />
+                <br />  
                 Currently building{" "}
-                <a href="https://fitpalai.xyz" target="blank">
-                  Fitpalai
+                <a href="https://remeal.xyz" target="blank">
+                  Remeal
                 </a>
               </p>
               <ShortcutHome />

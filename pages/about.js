@@ -49,13 +49,12 @@ function About(props) {
             }}
           >
             <strong>Hello, I'm Samuel Ironkwe </strong>I am a{" "}
-            <strong>full stack developer.</strong>
+            <strong>software engineer.</strong>
           </Paragraph>
           <Paragraph>
-            I have previously as a developer intern for PrologueXR(now PrologueAI) where I got to build
-            out various tools and features across the website up in the Great White North,
-            Quebec, Canada while studying for my science degree at the
-            University of Manitoba from '20 to '24. I am currently seeking a new
+            I have previously worked as a developer intern for Prodigy Education where I got to build
+            out various tools and features across the website while studying for my science degree at the
+            University of Manitoba. I am currently seeking a new
             role where i get to improve my skills and build amazing products.{" "}
             <strong> Dive</strong> into my codebase over at{" "}
             <a href="/github.com/SamIron0" target="_blank">
