@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ["Fitpal AI","Cruiseo"];
+    const featured = ["Remeal", "Cruiseo"];
 
     return items
       .map((item) => {
@@ -82,11 +82,8 @@ function Projects(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>Featured Projects</h2>
-        <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
-
         <h2>All Projects</h2>
-        {renderAll()}
+        <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
       </AnimateSharedLayout>
     </>
   );

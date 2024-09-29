@@ -10,7 +10,6 @@ export default function Navbar() {
   const pages = [
     'About',
    'Projects',
-     'Books',
   ]
   const [hovered, setHovered] = useState('')
   const { query } = useKBar()

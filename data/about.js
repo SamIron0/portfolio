@@ -1,16 +1,9 @@
 const items = [
-  {
-    jobTitle: "Teaching Assistant",
-    company: "University of Manitoba",
-    companyUrl: "https://www.umanitoba.ca",
-    startDate: "2024-09-01",
-    endDate: "2024-12-15",
-    location: "Winnipeg, MB",
-  },
+  
   {
     jobTitle: "Software Developer Intern",
-    company: "PrologueAI",
-    companyUrl: "https://www.prologue.ai",
+    company: "Prodigy Education",
+    companyUrl: "https://www.prodigygame.com/main-en/",
     startDate: "2023-05-01",
     endDate: "2023-08-31",
     location: "Remote",
