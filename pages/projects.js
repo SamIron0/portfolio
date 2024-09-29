@@ -21,7 +21,7 @@ export async function getStaticProps() {
 
 function Projects(props) {
   const renderFeatured = () => {
-    const featured = ["Remeal", "Scrapify", "Pizza App", "Facial Recognition"];
+    const featured = ["Remeal", "Scrapify"];
 
     return items
       .map((item) => {
@@ -36,7 +36,7 @@ function Projects(props) {
       })
       .flat()
       .map((item, index) => {
-        return <FeaturedProject key={index} project={item} />;
+        return <Featured  Project key={index} project={item} />;
       });
   };
 
