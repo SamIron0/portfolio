@@ -24,27 +24,21 @@ const items = [
       },
     ],
   },
-  { 
-    year: "2022",
+  {
+    year: "2021",
     projects: [
       {
         title: "Pizza App",
         description: "Pizza ordering app",
         url: "https://github.com/SamIron0/Pizza_App",
-        active: true,
-        stats: "Java",
+        active: "Java",
         image: "/static/images/fitpalai.png",
       },
-    ],
-  },
-  {
-    year: "2021",
-    projects: [
       {
         title: "Facial Recognition",
         description: "Rudimentary facial recognition software",
         url: "https://github.com/SamIron0/Facial-Recognition",
-        active: true,
+        active: false,
         stats: "Python",
         image: "/static/images/fitpalai.png",
       },
