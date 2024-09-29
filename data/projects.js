@@ -13,13 +13,14 @@ const items = [
         image: "/static/images/remeal.png",
       },
       {
-        title: "Scrapify",
+        title: "Scrapy",
         description: "AI powered web scraper, using Llama 3",
         url: "https://github.com/SamIron0/scrapy",
         icon: "resend",
         active: true,
         stats:
           "Python, Flask, Selenium, BeautifulSoup, LangChain, OpenAI API, pytest",
+        image: "/static/images/scrapy.png",
       },
       {
         title: "Pizza App",
