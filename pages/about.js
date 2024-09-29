@@ -49,7 +49,7 @@ function About(props) {
             }}
           >
             <strong>Hello, I'm Samuel Ironkwe </strong>I am a{" "}
-            <strong>software engineer.</strong>
+            <strong>software developer.</strong>
           </Paragraph>
           <Paragraph>
             I have previously worked as a developer intern for Prodigy Education where I got to build

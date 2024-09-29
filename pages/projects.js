@@ -18,7 +18,7 @@ export async function getStaticProps() {
 
   return { props: meta };
 }
-
+  
 function Projects(props) {
   const renderFeatured = () => {
     const featured = ["Remeal","Scrapy","Pizza App","Facial Recognition"];
