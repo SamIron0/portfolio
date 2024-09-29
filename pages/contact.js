@@ -20,7 +20,7 @@ export async function getStaticProps() {
 
 function Contact(props) {
   const { title, image } = props;
-  const description = `<strong>I love connecting </strong> with entrepreneurs, engineers, indiehackers and more. <strong>I'm open to work, </strong> so contact me and I will reply right away.`;
+  const description = `I'm always open to new opportunities and connections. Whether you have a question, a proposal, or just want to say hello, I'd love to hear from you. Please use the form below to get in touch.`;
   const [isEmailSent, setIsEmailSent] = React.useState(undefined);
   const [showToast, setShowToast] = React.useState(false);
 
