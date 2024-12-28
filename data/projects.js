@@ -3,6 +3,17 @@ const items = [
     year: "2024",
     projects: [
       {
+        title: "Traftics",
+        description: "Session replay and analysis.",
+        url: "https://www.gaha.vercel.app",
+        active: true,
+        icon: "resend",
+        stats:
+          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Jest",
+        image: "/static/images/traftics.png",
+     
+      },
+      {
         title: "Remeal",
         description: "Recipe matching engine.",
         url: "https://www.remeal.xyz",
@@ -24,7 +35,7 @@ const items = [
       },
       {
         title: "Pizza App",
-        description: "Pizza ordering app",
+        description: "Android pizza ordering app in java. I built this alongside three classmates using agile methodologies",
         url: "https://github.com/SamIron0/Pizza_App",
         icon: "resend",
         active: true,
