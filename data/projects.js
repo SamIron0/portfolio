@@ -9,7 +9,7 @@ const items = [
         active: true,
         icon: "resend",
         stats:
-          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Jest",
+          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Jest, Stripe",
         image: "/static/images/traftics.png",
      
       },
