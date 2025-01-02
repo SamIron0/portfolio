@@ -55,7 +55,7 @@ export default function Index(props) {
                 <strong>Software Developer</strong>
                 <br />  
                 Currently building{" "}
-                <a href="https://gaha.vercel.app" target="blank">
+                <a href="https://traftics.ironkwe.site" target="blank">
                   Traftics
                 </a>
               </p>

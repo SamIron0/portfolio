@@ -5,13 +5,12 @@ const items = [
       {
         title: "Traftics",
         description: "Session replay and analysis.",
-        url: "https://www.gaha.vercel.app",
+        url: "https://www.traftics.ironkwe.site",
         active: true,
         icon: "resend",
         stats:
-          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Jest, Stripe",
+          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Zustand, Jest, Stripe",
         image: "/static/images/traftics.png",
-     
       },
       {
         title: "Remeal",
@@ -35,7 +34,8 @@ const items = [
       },
       {
         title: "Pizza App",
-        description: "Android pizza ordering app in java. I built this alongside three classmates using agile methodologies",
+        description:
+          "Android pizza ordering app in java. I built this alongside three classmates using agile methodologies",
         url: "https://github.com/SamIron0/Pizza_App",
         icon: "resend",
         active: true,
