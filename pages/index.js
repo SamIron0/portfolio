@@ -53,9 +53,12 @@ export default function Index(props) {
               <h1>{title}</h1>
               <p>
                 <strong>Software Developer</strong>
-                <br />  
+                <br />
                 Currently building{" "}
-                <a href="https://traftics.ironkwe.site" target="blank">
+                <a
+                  href="https://traftics.ironkwe.site/org/remeal/project/project-4fd62621/sessions"
+                  target="blank"
+                >
                   Traftics
                 </a>
               </p>

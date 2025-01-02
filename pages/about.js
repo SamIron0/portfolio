@@ -53,7 +53,7 @@ function About(props) {
           </Paragraph>
           <Paragraph>
             I have previously worked as a developer intern for Prodigy Education where I got to build
-            out various tools and features across the website while studying for my science degree at the
+            out various tools and features across the website while studying for my computer science degree at the
             University of Manitoba. I am currently seeking a new
             role where i get to improve my skills and build amazing products.{" "}
             <strong> Dive</strong> into my codebase over at{" "}
@@ -64,7 +64,7 @@ function About(props) {
           </Paragraph>
           <Paragraph>
             When I'm not working, I like weightlifting, watching movies, and{" "}
-            <strong>cooking</strong>.
+            <strong>coding </strong>side projects.
           </Paragraph>
         </Section>
       </Container>
