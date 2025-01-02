@@ -5,7 +5,7 @@ const items = [
       {
         title: "Traftics",
         description: "Session replay and analysis.",
-        url: "https://www.traftics.ironkwe.site",
+        url: "https://traftics.ironkwe.site",
         active: true,
         icon: "resend",
         stats:
