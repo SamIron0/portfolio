@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { PostMain, PostContent, PostContainer } from '../components/Post'
 import { Wrapper } from '../components/Wrapper'
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Base({ children }) {
   const { title, tagline, primaryColor, secondaryColor } = children.props
@@ -36,6 +37,7 @@ export default function Base({ children }) {
           </PostContainer>
         </PostContent>
       </PostMain>
+      <Analytics/>
       <Footer />
     </Wrapper>
   )
