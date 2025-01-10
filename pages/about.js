@@ -26,7 +26,7 @@ function About(props) {
   const [toastTitle, setToastTitle] = React.useState("");
   const [toastDescription, setToastDescription] = React.useState("");
   const [showToast, setShowToast] = React.useState(false);
-  
+
   const renderIntro = () => {
     return (
       <Container>
@@ -48,23 +48,19 @@ function About(props) {
               "@bp2": { marginTop: "-6px" },
             }}
           >
-            <strong>Hello, I'm Samuel Ironkwe </strong>I am a{" "}
-            <strong>software developer.</strong>
+            <strong>Hey, I'm Samuel Ironkwe </strong>I am a{" "}
+            <strong>full-stack developer</strong> focused on building impactful web applications.
           </Paragraph>
           <Paragraph>
-            I have previously worked as a developer intern for Prodigy Education where I got to build
-            out various tools and features across the website while studying for my computer science degree at the
-            University of Manitoba. I am currently seeking a new
-            role where i get to improve my skills and build amazing products.{" "}
-            <strong> Dive</strong> into my codebase over at{" "}
+            I previously worked as a developer intern at Prodigy Education where I contributed to API endpoints supporting over 150k concurrent users and implemented UI components using React and TypeScript. I'm currently working on Traftics, a user behavior analytics tool, while exploring new opportunities in software development. <strong>Check out</strong> my work at{" "}
             <a href="/github.com/SamIron0" target="_blank">
               github.com/SamIron0
             </a>{" "}
             💻✨
           </Paragraph>
           <Paragraph>
-            When I'm not working, I like weightlifting, watching movies, and{" "}
-            <strong>coding </strong>side projects.
+            When I'm not coding, I enjoy hitting the gym, watching movies, and working on{" "}
+            <strong>side projects</strong> in the JavaScript ecosystem.
           </Paragraph>
         </Section>
       </Container>
