@@ -5,10 +5,10 @@ export default async function sendEmail(req, res) {
     const data = req.body;
 
     await resend.sendEmail({
-      from: "ironkwe.site <website@ironkwe.site>",
+      from: "ironkwe.com <website@ironkwe.com>",
       to: "samironkwe@gmail.com",
       replyTo: data.email,
-      subject: `${data.name} - via ironkwe.site`,
+      subject: `${data.name} - via ironkwe.com`,
       react: <div> {data.message} </div>,
     });
 

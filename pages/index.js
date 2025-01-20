@@ -26,8 +26,8 @@ export default function Index(props) {
         <meta content={title} property="og:title" />
         <meta content={description} name="description" />
         <meta content={description} property="og:description" />
-        <meta content="https://ironkwe.site" property="og:url" />
-        <meta content={`https://ironkwe.site/${image}`} property="og:image" />
+        <meta content="https://ironkwe.com" property="og:url" />
+        <meta content={`https://ironkwe.com/${image}`} property="og:image" />
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=G-B26F3B1N2E"
@@ -56,7 +56,7 @@ export default function Index(props) {
                 <br />
                 Currently building{" "}
                 <a
-                  href="https://traftics.ironkwe.site/org/remeal/project/project-4fd62621/sessions"
+                  href="https://traftics.ironkwe.com/org/remeal/project/project-4fd62621/sessions"
                   target="blank"
                 >
                   Traftics

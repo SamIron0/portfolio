@@ -29,7 +29,7 @@ function Contact(props) {
 
     try {
       const isProd = process.env.NODE_ENV === "production";
-      const base = isProd ? "https://ironkwe.site" : "http://localhost:3000";
+      const base = isProd ? "https://ironkwe.com" : "http://localhost:3000";
 
       await fetch(`${base}/api/email`, {
         method: "POST",
