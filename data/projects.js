@@ -4,7 +4,7 @@ const items = [
     projects: [
       {
         title: "Caretaker",
-        description: "Reimagined landing page of caretaker technologies",
+        description: "Reimagined landing page for caretaker technologies",
         url: "https://caretaker.ironkwe.com",
         active: true,
         icon: "resend",
