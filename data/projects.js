@@ -3,6 +3,15 @@ const items = [
     year: "2024",
     projects: [
       {
+        title: "Caretaker",
+        description: "Reimagined landing page of caretaker technologies",
+        url: "https://caretaker.ironkwe.com",
+        active: true,
+        icon: "resend",
+        stats:
+          "NextJS, Typescript, Tailwind CSS",
+        image: "/static/images/caretaker.png",
+      }, {
         title: "Traftics",
         description: "Session replay and analysis.",
         url: "https://traftics.ironkwe.com/org/remeal/project/project-4fd62621/sessions",
