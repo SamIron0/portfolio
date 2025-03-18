@@ -56,7 +56,7 @@ export default function Index(props) {
                 <br />
                 Currently building{" "}
                 <a
-                  href="https://traftics.ironkwe.com/org/remeal/project/project-4fd62621/sessions"
+                  href="https://traftics.ironkwe.com/"
                   target="blank"
                 >
                   Traftics

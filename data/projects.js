@@ -18,7 +18,7 @@ const items = [
         active: true,
         icon: "resend",
         stats:
-          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Zustand, Jest, Stripe",
+          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Zustand, Tanstack, Stripe",
         image: "/static/images/traftics.png",
       },
       {
