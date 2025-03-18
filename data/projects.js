@@ -14,7 +14,7 @@ const items = [
       }, {
         title: "Traftics",
         description: "Session replay and analysis.",
-        url: "https://traftics.ironkwe.com/org/remeal/project/project-4fd62621/sessions",
+        url: "https://traftics.ironkwe.com",
         active: true,
         icon: "resend",
         stats:
