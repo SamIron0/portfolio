@@ -29,7 +29,8 @@ const items = [
     projects: [
       {
         title: "Traftics",
-        description: "Session replay and analysis.",
+        description:
+          "A session replay and analytics tool that lets you watch how users interact with your site, auto-prioritizes sessions worth reviewing, and turns raw behavior data into actionable insights.",
         url: "https://traftics.ironkwe.site",
         active: true,
         icon: "resend",
