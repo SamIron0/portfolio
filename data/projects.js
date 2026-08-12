@@ -3,6 +3,16 @@ const items = [
     year: "2026",
     projects: [
       {
+        title: "Abundish",
+        description:
+          "A Nigerian farm-to-table ecommerce platform connecting local farmers directly with homes and businesses, cutting out middlemen for fresh, fairly priced produce with same-day delivery in Lagos.",
+        url: "https://abundish.info",
+        active: true,
+        icon: "resend",
+        stats: "NextJS, Typescript, Tailwind CSS, Medusa, PostgreSQL, Stripe, Paystack, VPS, Vercel",
+        image: "/static/images/abundish.png",
+      },
+      {
         title: "Quro",
         description:
           "A smart question bank app for exam prep, with practice quizzes, bookmarks, and progress tracking.",
@@ -29,7 +39,8 @@ const items = [
       },
       {
         title: "Remeal",
-        description: "Recipe matching engine.",
+        description:
+          "An intelligent recipe companion that suggests recipes based on the ingredients you have, with ingredient matching, nutritional info, and saved recipes.",
         url: "https://www.remeal.ironkwe.site",
         active: true,
         icon: "resend",
@@ -39,7 +50,8 @@ const items = [
       },
       {
         title: "Scrapy",
-        description: "AI powered web scraper, using Llama 3",
+        description:
+          "A web scraping and chat app that scrapes any site with Selenium, indexes the content, and lets you ask questions about it via a conversational AI.",
         url: "https://github.com/SamIron0/scrapy",
         icon: "resend",
         active: true,
@@ -60,7 +72,7 @@ const items = [
       {
         title: "Pizza App",
         description:
-          "Android pizza ordering app in java. I built this alongside three classmates using agile methodologies",
+          "Android pizza ordering app in java, built alongside three classmates using agile methodologies",
         url: "https://github.com/SamIron0/Pizza_App",
         icon: "resend",
         active: true,
