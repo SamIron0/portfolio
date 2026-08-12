@@ -9,7 +9,7 @@ export default async function sendEmail(req, res) {
       to: "samironkwe@gmail.com",
       replyTo: data.email,
       subject: `${data.name} - via ironkwe.site`,
-      react: <div> {data.message} </div>,
+      html: `<div>${data.message}</div>`,
     });
 
     res.status(200).json({ message: "Email sent" });
