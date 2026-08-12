@@ -24,7 +24,7 @@ const items = [
       {
         title: "Remeal",
         description: "Recipe matching engine.",
-        url: "https://www.remeal.xyz",
+        url: "https://www.remeal.ironkwe.site",
         active: true,
         icon: "resend",
         stats:
