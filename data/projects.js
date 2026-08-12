@@ -5,7 +5,7 @@ const items = [
       {
         title: "Caretaker",
         description: "Reimagined landing page for caretaker technologies",
-        url: "https://caretaker.ironkwe.com",
+        url: "https://caretaker.ironkwe.site",
         active: true,
         icon: "resend",
         stats:
@@ -14,7 +14,7 @@ const items = [
       }, {
         title: "Traftics",
         description: "Session replay and analysis.",
-        url: "https://traftics.ironkwe.com",
+        url: "https://traftics.ironkwe.site",
         active: true,
         icon: "resend",
         stats:
