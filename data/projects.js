@@ -9,7 +9,7 @@ const items = [
         url: "https://abundish.info",
         active: true,
         icon: "resend",
-        stats: "NextJS, Typescript, Tailwind CSS, Medusa, PostgreSQL, Stripe, Paystack, VPS, Vercel",
+        stats: "NextJS, Typescript, Tailwind CSS, Medusa, PostgreSQL, Paystack, Docker, Nginx",
         image: "/static/images/abundish.png",
       },
       {
@@ -19,7 +19,7 @@ const items = [
         url: "https://quro.study",
         active: true,
         icon: "resend",
-        stats: "NextJS, Typescript, Tailwind CSS",
+        stats: "NextJS, Typescript, Tailwind CSS, Supabase",
         image: "/static/images/quro.png",
       },
     ],
