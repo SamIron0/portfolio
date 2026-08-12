@@ -2,6 +2,7 @@ const items = [
   {
     year: "2026",
     projects: [
+
       {
         title: "Abundish",
         description:
@@ -21,6 +22,16 @@ const items = [
         icon: "resend",
         stats: "NextJS, Typescript, Tailwind CSS, Supabase",
         image: "/static/images/quro.png",
+      },
+      {
+        title: "OA Story",
+        description:
+          "A wedding invitation site for Olamide & Agbor with RSVP, digital access cards, photo gallery, event schedule, and venue details for #TheOAStory'26.",
+        url: "https://olamideandagbor.com",
+        active: true,
+        icon: "resend",
+        stats: "NextJS, Typescript, Tailwind CSS, Resend, Google Sheets API",
+        image: "/static/images/oastory.png",
       },
     ],
   },
