@@ -52,7 +52,7 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Software Developer</strong>
+                <strong>Software Engineer</strong>
                 <br />
                 Currently building{" "}
                 <a

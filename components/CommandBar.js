@@ -3,6 +3,7 @@ import { Box } from './Box'
 import Toast from './Toast'
 import { useRef, useState, forwardRef } from 'react'
 import { useRouter } from 'next/router'
+import dynamic from 'next/dynamic'
 import {
   KBarAnimator,
   KBarProvider,
@@ -12,12 +13,13 @@ import {
   KBarSearch,
   KBarResults,
 } from 'kbar'
-import Lottie from 'lottie-react'
 import emailIcon from '../public/static/icons/email.json'
 import sourceIcon from '../public/static/icons/source.json'
 import aboutIcon from '../public/static/icons/about.json'
 import homeIcon from '../public/static/icons/home.json'
 import projectsIcon from '../public/static/icons/projects.json'
+
+const Lottie = dynamic(() => import('lottie-react'), { ssr: false })
 
 export default function CommandBar(props) {
   const emailRef = useRef()
