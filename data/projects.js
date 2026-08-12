@@ -1,17 +1,23 @@
 const items = [
   {
+    year: "2026",
+    projects: [
+      {
+        title: "Quro",
+        description:
+          "A smart question bank app for exam prep, with practice quizzes, bookmarks, and progress tracking.",
+        url: "https://quro.tech",
+        active: true,
+        icon: "resend",
+        stats: "NextJS, Typescript, Tailwind CSS",
+        image: "/static/images/quro.png",
+      },
+    ],
+  },
+  {
     year: "2024",
     projects: [
       {
-        title: "Caretaker",
-        description: "Reimagined landing page for caretaker technologies",
-        url: "https://caretaker.ironkwe.site",
-        active: true,
-        icon: "resend",
-        stats:
-          "NextJS, Typescript, Tailwind CSS",
-        image: "/static/images/caretaker.png",
-      }, {
         title: "Traftics",
         description: "Session replay and analysis.",
         url: "https://traftics.ironkwe.site",
@@ -40,6 +46,16 @@ const items = [
         stats:
           "Python, Flask, Selenium, BeautifulSoup, LangChain, OpenAI API, pytest",
         image: "/static/images/scrapy.png",
+      },
+      {
+        title: "Caretaker",
+        description: "Reimagined landing page for caretaker technologies",
+        url: "https://caretaker.ironkwe.site",
+        active: true,
+        icon: "resend",
+        stats:
+          "NextJS, Typescript, Tailwind CSS",
+        image: "/static/images/caretaker.png",
       },
       {
         title: "Pizza App",
