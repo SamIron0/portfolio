@@ -16,7 +16,7 @@ const items = [
         title: "Quro",
         description:
           "A smart question bank app for exam prep, with practice quizzes, bookmarks, and progress tracking.",
-        url: "https://quro.tech",
+        url: "https://quro.study",
         active: true,
         icon: "resend",
         stats: "NextJS, Typescript, Tailwind CSS",

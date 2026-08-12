@@ -28,10 +28,7 @@ function Contact(props) {
     e.preventDefault();
 
     try {
-      const isProd = process.env.NODE_ENV === "production";
-      const base = isProd ? "https://ironkwe.site" : "http://localhost:3000";
-
-      await fetch(`${base}/api/email`, {
+      const response = await fetch("/api/email", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -40,6 +37,10 @@ function Contact(props) {
           message: e.target.message.value,
         }),
       });
+
+      if (!response.ok) {
+        throw new Error(`Request failed with status ${response.status}`);
+      }
 
       setIsEmailSent(true);
       setShowToast(true);
