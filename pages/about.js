@@ -48,11 +48,11 @@ function About(props) {
               "@bp2": { marginTop: "-6px" },
             }}
           >
-            <strong>Hey, I'm Samuel Ironkwe </strong>I am a{" "}
-            <strong>full-stack developer</strong> focused on building impactful web applications.
+            <strong>Hey, I'm Emeka Ironkwe </strong>I am a{" "}
+            <strong> student and a full-stack developer</strong> focused on building impactful software solutions.
           </Paragraph>
           <Paragraph>
-            I previously worked as a developer intern at Prodigy Education where I contributed to API endpoints supporting over 150k concurrent users and implemented UI components using React and TypeScript. I'm currently working on Traftics, a user behavior analytics tool, while exploring new opportunities in software development. <strong>Check out</strong> my work at{" "}
+            I currently school at Babcock and work as a developer at AG Mortgage Bank Plc where I contribute to API endpoints supporting over 60k customers and implement UI components using React and TypeScript. I'm currently building tiny-infer, a minimal c inference engine that takes the weights of a pre-trained model and runs a forward pass.  <strong>Check out</strong> my work at{" "}
             <a href="/github.com/SamIron0" target="_blank">
               github.com/SamIron0
             </a>{" "}
@@ -60,7 +60,7 @@ function About(props) {
           </Paragraph>
           <Paragraph>
             When I'm not coding, I enjoy hitting the gym, watching movies, and working on{" "}
-            <strong>side projects</strong> in the JavaScript ecosystem.
+            <strong>side projects.</strong>
           </Paragraph>
         </Section>
       </Container>
