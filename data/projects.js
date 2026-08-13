@@ -23,16 +23,6 @@ const items = [
         stats: "NextJS, Typescript, Tailwind CSS, Supabase",
         image: "/static/images/quro.png",
       },
-      {
-        title: "OA Story",
-        description:
-          "A wedding invitation site for Olamide & Agbor with RSVP, digital access cards, photo gallery, event schedule, and venue details for #TheOAStory'26.",
-        url: "https://olamideandagbor.com",
-        active: true,
-        icon: "resend",
-        stats: "NextJS, Typescript, Tailwind CSS, Resend, Google Sheets API",
-        image: "/static/images/oastory.png",
-      },
     ],
   },
   {
@@ -50,17 +40,6 @@ const items = [
         image: "/static/images/traftics.png",
       },
       {
-        title: "Remeal",
-        description:
-          "An intelligent recipe companion that suggests recipes based on the ingredients you have, with ingredient matching, nutritional info, and saved recipes.",
-        url: "https://www.remeal.ironkwe.site",
-        active: true,
-        icon: "resend",
-        stats:
-          "NextJS, Typescript, Tailwind CSS, Python, PostgreSQL, Express, Node.js",
-        image: "/static/images/remeal.png",
-      },
-      {
         title: "Scrapy",
         description:
           "A web scraping and chat app that scrapes any site with Selenium, indexes the content, and lets you ask questions about it via a conversational AI.",
@@ -72,23 +51,15 @@ const items = [
         image: "/static/images/scrapy.png",
       },
       {
-        title: "Caretaker",
-        description: "Reimagined landing page for caretaker technologies",
-        url: "https://caretaker.ironkwe.site",
+        title: "Remeal",
+        description:
+          "An intelligent recipe companion that suggests recipes based on the ingredients you have, with ingredient matching, nutritional info, and saved recipes.",
+        url: "https://www.remeal.ironkwe.site",
         active: true,
         icon: "resend",
         stats:
           "NextJS, Typescript, Tailwind CSS",
-        image: "/static/images/caretaker.png",
-      },
-      {
-        title: "Pizza App",
-        description:
-          "Android pizza ordering app in java, built alongside three classmates using agile methodologies",
-        url: "https://github.com/SamIron0/Pizza_App",
-        icon: "resend",
-        active: true,
-        stats: "Java",
+        image: "/static/images/remeal.png",
       },
       {
         title: "Facial Recognition",
