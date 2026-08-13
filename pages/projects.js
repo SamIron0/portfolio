@@ -20,9 +20,9 @@ export async function getStaticProps() {
 }
   
 function Projects(props) {
-  const renderFeatured = () => {
-    const featured = ["Remeal","Scrapy","Pizza App","Facial Recognition","Traftics","Caretaker","Abundish","Quro","OA Story"];
+  const featured = ["Abundish", "Traftics", "Quro"];
 
+  const renderFeatured = () => {
     return items
       .map((item) => {
         return item.projects.filter((project) =>
@@ -37,6 +37,31 @@ function Projects(props) {
       .flat()
       .map((item, index) => {
         return <FeaturedProject key={index} project={item} />;
+      });
+  };
+
+  const renderAll = () => {
+    return items
+      .map((item) => {
+        return {
+          ...item,
+          projects: item.projects.filter(
+            (project) => !featured.includes(project.title)
+          ),
+        };
+      })
+      .filter((item) => item.projects.length > 0)
+      .map((item, index) => {
+        return (
+          <div key={index}>
+            <h3>{item.year}</h3>
+            <ul>
+              {item.projects.map((project, pIndex) => {
+                return <ProjectItem key={pIndex} project={project} />;
+              })}
+            </ul>
+          </div>
+        );
       });
   };
 
@@ -67,8 +92,11 @@ function Projects(props) {
       <AnimateSharedLayout>
         <p dangerouslySetInnerHTML={{ __html: description }} />
 
-        <h2>All Projects</h2>
+        <h2>Featured</h2>
         <FeaturedProjects>{renderFeatured()}</FeaturedProjects>
+
+        <h2>All Projects</h2>
+        {renderAll()}
       </AnimateSharedLayout>
     </>
   );

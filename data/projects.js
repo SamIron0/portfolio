@@ -6,39 +6,39 @@ const items = [
       {
         title: "Abundish",
         description:
-          "A Nigerian farm-to-table ecommerce platform connecting local farmers directly with homes and businesses, cutting out middlemen for fresh, fairly priced produce with same-day delivery in Lagos.",
+          "Farm-to-table ecommerce platform on a headless Medusa backend with Paystack payments, distance-based delivery pricing via Google Maps, Meilisearch search, and Dockerized deployment behind Nginx.",
         url: "https://abundish.info",
         active: true,
         icon: "resend",
-        stats: "NextJS, Typescript, Tailwind CSS, Medusa, PostgreSQL, Paystack, Docker, Nginx",
+        stats: "TypeScript, NextJS, Medusa, PostgreSQL, Meilisearch, Paystack, Docker, Nginx",
         image: "/static/images/abundish.png",
+      },
+      {
+        title: "Traftics",
+        description:
+          "Session replay and analytics platform with a custom tracker script deployed to Cloudflare's edge and Stripe-powered billing, built as a multi-app monorepo",
+        url: "https://traftics.ironkwe.site",
+        active: true,
+        icon: "resend",
+        stats:
+          "NextJS, TypeScript, Tailwind CSS, Supabase, Zustand, TanStack Query, Stripe, Cloudflare",
+        image: "/static/images/traftics.png",
       },
       {
         title: "Quro",
         description:
-          "A smart question bank app for exam prep, with practice quizzes, bookmarks, and progress tracking.",
+          "Exam-prep platform with Practice/Quiz modes, LaTeX math rendering, and RLS-secured bookmarks and progress tracking.",
         url: "https://quro.study",
         active: true,
         icon: "resend",
-        stats: "NextJS, Typescript, Tailwind CSS, Supabase",
+        stats: "NextJS, TypeScript, Tailwind CSS, Supabase, KaTeX, PostHog",
         image: "/static/images/quro.png",
       },
     ],
   },
   {
-    year: "2024",
+    year: "2025",
     projects: [
-      {
-        title: "Traftics",
-        description:
-          "A session replay and analytics tool that lets you watch how users interact with your site, auto-prioritizes sessions worth reviewing, and turns raw behavior data into actionable insights.",
-        url: "https://traftics.ironkwe.site",
-        active: true,
-        icon: "resend",
-        stats:
-          "NextJS, Typescript, Tailwind CSS, PostgreSQL, Zustand, Tanstack, Stripe",
-        image: "/static/images/traftics.png",
-      },
       {
         title: "Scrapy",
         description:
@@ -50,6 +50,12 @@ const items = [
           "Python, Flask, Selenium, BeautifulSoup, LangChain, OpenAI API, pytest",
         image: "/static/images/scrapy.png",
       },
+    ],
+  },
+  {
+    year: "2024",
+    projects: [
+
       {
         title: "Remeal",
         description:
@@ -58,7 +64,7 @@ const items = [
         active: true,
         icon: "resend",
         stats:
-          "NextJS, Typescript, Tailwind CSS",
+          "NextJS, Typescript, Tailwind CSS, PostgreSQL",
         image: "/static/images/remeal.png",
       },
       {
@@ -72,6 +78,21 @@ const items = [
       },
     ],
   },
+  {
+    year: "2023",
+    projects: [
+
+      {
+        title: "Pizza_App",
+        description:
+          "Android app which allows users to order pizza",
+        url: "https://github.com/SamIron0/Pizza_App",
+        active: false,
+        icon: "resend",
+        stats: "Java",
+      }
+    ],
+  }
 ];
 
 export default items;
