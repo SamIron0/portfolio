@@ -8,10 +8,10 @@ import { Wrapper } from "../components/Wrapper";
 export async function getStaticProps() {
   return {
     props: {
-      title: "Samuel Ironkwe",
+      title: "Emeka Ironkwe",
       description:
         "Obsessed with solving real problems and building awesome things",
-      image: "/static/images/samuel.jpg",
+      image: "/static/images/emeka.jpg",
     },
   };
 }
@@ -52,15 +52,14 @@ export default function Index(props) {
             <div>
               <h1>{title}</h1>
               <p>
-                <strong>Software Engineer</strong>
-                <br />
-                Currently building{" "}
-                <a
-                  href="https://traftics.ironkwe.site/"
+                <strong>Software Developer at <a
+                  href="https://agmortgagebankplc.com/"
                   target="blank"
                 >
-                  Traftics
-                </a>
+                  AG Mortgage Bank
+                </a></strong>
+                <br />
+                Currently building a transformer inference engine from scratch in C.
               </p>
               <ShortcutHome />
             </div>

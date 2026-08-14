@@ -8,9 +8,9 @@ import { styled } from "../stitches.config";
 
 export async function getStaticProps() {
   const meta = {
-    title: "Contact // Samuel Ironkwe",
+    title: "Contact // Emeka Ironkwe",
     tagline: "Email me.",
-    image: "/static/images/samuel.jpg",
+    image: "/static/images/emeka.jpg",
     primaryColor: "cyan",
     secondaryColor: "green",
   };
@@ -58,8 +58,8 @@ function Contact(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://samuel.pro/contact" property="og:url" />
-        <meta content={`https://samuel.pro${image}`} property="og:image" />
+        <meta content="https://emeka.pro/contact" property="og:url" />
+        <meta content={`https://emeka.pro${image}`} property="og:image" />
       </Head>
 
       <Box>

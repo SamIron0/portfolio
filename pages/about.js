@@ -10,10 +10,10 @@ import items from "../data/about";
 
 export async function getStaticProps() {
   const meta = {
-    title: "About // Samuel Ironkwe",
+    title: "About // Emeka Ironkwe",
     description: "All about me",
     tagline: "Create. Share. Repeat.",
-    image: "/static/images/samuel.jpg",
+    image: "/static/images/emeka.jpg",
     primaryColor: "pink",
     secondaryColor: "purple",
   };
@@ -32,8 +32,8 @@ function About(props) {
       <Container>
         <Section>
           <img
-            alt="Samuel"
-            src="/static/images/samuel.jpg"
+            alt="Emeka"
+            src="/static/images/emeka.jpg"
             width="336"
             height="336"
             placeholder="blur"
@@ -98,8 +98,8 @@ function About(props) {
         <meta content={title} property="og:title" />
         <meta content={stripHtml(description)} name="description" />
         <meta content={stripHtml(description)} property="og:description" />
-        <meta content="https://samuel.pro/about" property="og:url" />
-        <meta content={`https://samuel.pro${image}`} property="og:image" />
+        <meta content="https://emeka.pro/about" property="og:url" />
+        <meta content={`https://emeka.pro${image}`} property="og:image" />
       </Head>
 
       {renderIntro()}
