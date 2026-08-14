@@ -2,17 +2,6 @@ const items = [
   {
     year: "2026",
     projects: [
-
-      {
-        title: "Abundish",
-        description:
-          "Farm-to-table ecommerce platform on a self-hosted Medusa backend with a custom Paystack payment provider, live courier delivery quotes, Meilisearch search, and Dockerized deployment behind Nginx serving ~100 daily visitors.",
-        url: "https://abundish.info",
-        active: true,
-        icon: "resend",
-        stats: "TypeScript, NextJS, Medusa, PostgreSQL, Meilisearch, Paystack, Docker, Nginx",
-        image: "/static/images/abundish.png",
-      },
       {
         title: "Traftics",
         description:
@@ -23,6 +12,16 @@ const items = [
         stats:
           "NextJS, TypeScript, Tailwind CSS, Supabase, Zustand, TanStack Query, Stripe, Cloudflare",
         image: "/static/images/traftics.png",
+      },
+      {
+        title: "Abundish",
+        description:
+          "Farm-to-table ecommerce platform on a self-hosted Medusa backend with a custom Paystack payment provider, live courier delivery quotes, Meilisearch search, and Dockerized deployment behind Nginx serving ~100 daily visitors.",
+        url: "https://abundish.info",
+        active: true,
+        icon: "resend",
+        stats: "TypeScript, NextJS, Medusa, PostgreSQL, Meilisearch, Paystack, Docker, Nginx",
+        image: "/static/images/abundish.png",
       },
       {
         title: "Quro",
