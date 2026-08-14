@@ -6,7 +6,7 @@ const items = [
       {
         title: "Abundish",
         description:
-          "Farm-to-table ecommerce platform on a headless Medusa backend with Paystack payments, distance-based delivery pricing via Google Maps, Meilisearch search, and Dockerized deployment behind Nginx.",
+          "Farm-to-table ecommerce platform on a self-hosted Medusa backend with a custom Paystack payment provider, live courier delivery quotes, Meilisearch search, and Dockerized deployment behind Nginx serving ~100 daily visitors.",
         url: "https://abundish.info",
         active: true,
         icon: "resend",
@@ -16,7 +16,7 @@ const items = [
       {
         title: "Traftics",
         description:
-          "Session replay and analytics platform with a custom tracker script deployed to Cloudflare's edge and Stripe-powered billing, built as a multi-app monorepo",
+          "Session replay and analytics platform built on rrweb, with a fault-tolerant event pipeline (batching, exponential-backoff retries, quota-aware shutdown) and frustration-signal session scoring, deployed as a monorepo with an edge-hosted tracker.",
         url: "https://traftics.ironkwe.site",
         active: true,
         icon: "resend",
@@ -27,7 +27,7 @@ const items = [
       {
         title: "Quro",
         description:
-          "Exam-prep platform with Practice/Quiz modes, LaTeX math rendering, and RLS-secured bookmarks and progress tracking.",
+          "Exam-prep platform serving ~2,700 questions across Practice and timed Quiz modes, with LaTeX rendering, RLS-secured bookmarks and ratings, and ad-blocker-proof PostHog analytics, reaching 150+ daily visitors during exam season.",
         url: "https://quro.study",
         active: true,
         icon: "resend",
